@@ -1,9 +1,11 @@
 import java.util.Scanner;
-
+// import java.util.Random;
 public class Main {
   public static void main(String[] args) {
     
     int numero_sorteado = (int) (Math.random() * 100);
+
+    // Random numero_sorteado = new Random();
 
     Scanner entrada = new Scanner(System.in);
     System.out.println("Advinhe o número: ");
