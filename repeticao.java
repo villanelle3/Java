@@ -3,11 +3,7 @@ import java.util.Scanner;
 public class Main {
   public static void main(String[] args) {
 
-    for(int i = 0; i < 10; i++){
-      System.out.println(i + " oi!");
-    }
-
-    // ===============================
+      // ===============================
 
     
     int num = 0;
@@ -17,13 +13,24 @@ public class Main {
       num = sc.nextInt();
     }
 
-
+    // ===============================
+    
     do{
       System.out.println("Digite um número ou 85 para sair: ");
       Scanner sc = new Scanner(System.in);
       num = sc.nextInt();
     }while(num != 85);
+
+
+    // ===============================
+    for(int i = 0; i < 10; i++){
+      for(int j = 0; j < 10; j++){
+        System.out.println(i + "*" + j + "=" + (i*j));
+      }
+      System.out.println("-------------------------------------");
+    }
     
 
   }
+  
 }
