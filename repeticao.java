@@ -16,6 +16,13 @@ public class Main {
       Scanner sc = new Scanner(System.in);
       num = sc.nextInt();
     }
+
+
+    do{
+      System.out.println("Digite um número ou 85 para sair: ");
+      Scanner sc = new Scanner(System.in);
+      num = sc.nextInt();
+    }while(num != 85);
     
 
   }
