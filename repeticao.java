@@ -1,9 +1,10 @@
 public class Main {
   public static void main(String[] args) {
-    int a, b;
-    a = 4;
-    b = 8;
-    System.out.println(a > b);
-  }
 
+    for(int i = 0; i < 10; i++){
+      System.out.println(i + " oi!");
+    }
+      
+
+  }
 }
