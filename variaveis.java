@@ -6,6 +6,7 @@ class Main {
     String valor = "R$ 1.000,00";
     String curso = "Curso de Java";
     String nome;
+    double n1, n2, total;
     
     System.out.println(valor);
     
@@ -22,6 +23,19 @@ class Main {
     Scanner entrada = new Scanner(System.in);
     nome = entrada.nextLine();
     System.out.println("Olá, " + nome);
+
+    // ===========================================================
+    System.out.println("Digite um número:");
+    Scanner numA = new Scanner(System.in);
+    n1 = numA.nextDouble();
+    System.out.println("Digite outro número:");
+    Scanner numB = new Scanner(System.in);
+    n2 = numB.nextDouble();
+
+    total = n1 + n2;
+
+    System.out.println("A soma dos números é: " + total);
+    
   }
 
   // Sytem.out...
