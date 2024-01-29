@@ -1,4 +1,4 @@
-public Class Cao{
+public class Cao{
   private int idade; // Só tem acesso dentro da classe
 
   public void setIdade(int idade){
