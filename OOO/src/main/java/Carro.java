@@ -1,4 +1,4 @@
-Class Carro{
+class Carro{
   String nome;
   String cor;
   int ano;
