@@ -1,3 +1,4 @@
+import java.util.Scanner;
 public class Main {
   public static void main(String[] args) {
     Pessoa p = new Pessoa();
@@ -14,5 +15,16 @@ public class Main {
     Conta c = new Poupanca();
     c.setsaldo(1000.0);
     c.imprimeExtrato();
+
+
+    Scanner s = new Scanner(System.in);
+    try{
+      System.out.println("Digite o valor do saque: ");
+      double valor = s.nextDouble();
+      System.out.println(valor);
+    }
+    catch(Exception ex){
+      System.out.println("Erro: " + ex.getMessage());
+    }
   }
 }
